@@ -3,10 +3,10 @@
 //Использовать рекурсию, не использовать циклы.
 
 Console.Write("Введите значение M: ");
-int m = int.Parse(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите значение N: ");
-int n = int.Parse(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 
 if (m <= n)
 {
